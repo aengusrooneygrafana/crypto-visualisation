@@ -57,12 +57,12 @@ if __name__ == "__main__":
     exchange = 'binance.com'
     symbols = ['ethusdt', 'btcusdt', 'ltcusdt']
     kafka = {"server": "glider.srvs.cloudkafka.com:9094",
-             "user": "my-user", 
-             "pass": "my-pass"}
+             "user": "my-username", 
+             "pass": "my-password"}
     
     # Get a license from https://shop.lucit.services/software/unicorn-binance-suite
     lucit_api_secret = "my-secret"
-    lucit_license_token = "my-token" 
+    lucit_license_token = "my-token"
 
     ubwa = BinanceWebSocketApiManager(exchange=exchange, 
                                       lucit_api_secret=lucit_api_secret, 
