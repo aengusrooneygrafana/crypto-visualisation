@@ -1,1 +1,1 @@
-# crypto-vizualisation
+# crypto-visualisation
