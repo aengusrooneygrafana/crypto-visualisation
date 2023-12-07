@@ -6,7 +6,7 @@ import requests
 key = "https://api.binance.com/api/v3/ticker/price?symbol="
 
 # Making list for multiple crypto's 
-currencies = ["BTCUSDT", "DOGEUSDT", "LTCUSDT"] 
+currencies = ["BTCUSDT", "ETHUSDT", "LTCUSDT"] 
 j = 0
 
 # running loop to print all crypto prices 

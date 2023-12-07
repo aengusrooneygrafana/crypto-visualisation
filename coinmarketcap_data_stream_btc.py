@@ -12,13 +12,13 @@ def data_stream(sleep_interval=1):
        bootstrap_servers=['glider.srvs.cloudkafka.com:9094'],
        security_protocol='SASL_SSL',
        sasl_mechanism = 'SCRAM-SHA-512',
-       sasl_plain_username = 'my-user',
-       sasl_plain_password = 'my-password'
+       sasl_plain_username = 'xxxx', 
+       sasl_plain_password = 'xxxx'
        #ssl_cafile='ca.pem'
     )  
     
     # coinmarketcap api_key 
-    api_key = 'my-key'
+    api_key = 'xxxx'
 
     # Configure CoinMarketCap API endpoint and parameters
     url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest'
